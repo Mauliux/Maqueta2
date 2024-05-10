@@ -1,0 +1,139 @@
+header{
+    height: 250px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.flex-items{
+    border: 2px solid #000;
+}
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 250px;
+    width: 500px;
+    background-color: aliceblue;
+}
+  
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 250px;
+    width: 250px;
+    background-color: bisque;
+}
+
+/**************************************************/
+
+.nav-items{
+    border: 2px solid #000;
+
+}
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+  
+.nav-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 50px;
+    width: 750px;
+    background-color: blueviolet;
+}
+/*********************************************************/
+main{
+    height: 400px;
+}
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.main-items{
+    border: 2px solid #000;
+}
+  
+.main-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 400px;
+    width: 450px;
+    background-color: crimson;
+}
+  
+.main-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 400px;
+    width: 300px;
+    background-color: darkblue;
+}
+
+/*************************************************************/
+
+footer{
+    height: 50px;
+    
+}
+  
+.fot-items{
+    border: 2px solid #000;
+
+}
+.flex-fot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+  
+.fot-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 50px;
+    width: 750px;
+    background-color: rgb(174, 238, 62);
+}
